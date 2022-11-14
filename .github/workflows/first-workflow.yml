@@ -1,0 +1,10 @@
+name: My First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubunu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello, world!"
+      - name: Print Farewell
+        run: echo "Goodbye, cruel world!"
