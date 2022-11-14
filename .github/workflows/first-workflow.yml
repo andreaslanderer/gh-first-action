@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print Greeting
         run: echo "Hello, world!"
+      - name: Execute Multi-Line Scripts
+        run: |
+          pwd
+          ls -al
       - name: Print Farewell
         run: echo "Goodbye, cruel world!"
